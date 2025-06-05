@@ -1,0 +1,15 @@
+======================================================
+       REPORTE DE BACKUP POSTGRESQL
+======================================================
+Fecha: Thu, Jun  5, 2025  4:47:58 PM
+Base de datos: testdb_practica3
+Usuario: postgres
+Host: localhost:5432
+
+Archivos generados:
+  backup_testdb_practica3_20250605_164758.sql
+  backup_testdb_practica3_20250605_164758.backup
+
+Comandos utilizados:
+  pg_dump -h localhost -p 5432 -U postgres testdb_practica3 > backup.sql
+  pg_dump -h localhost -p 5432 -U postgres -F c testdb_practica3 > backup.backup

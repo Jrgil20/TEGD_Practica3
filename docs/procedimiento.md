@@ -1,5 +1,51 @@
 # Procedimiento Detallado de Backup y Restore
 
+## 0. Instalación de PostgreSQL
+
+### En Windows
+
+1. **Descargar PostgreSQL**:
+   - Ir a https://www.postgresql.org/download/windows/
+   - Descargar el instalador para Windows
+   - Ejecutar el instalador y seguir las instrucciones
+
+2. **Configurar Variables de Entorno**:
+   ```cmd
+   # Agregar al PATH (ejemplo para PostgreSQL 15)
+   set PATH=%PATH%;C:\Program Files\PostgreSQL\15\bin
+   
+   # Para hacerlo permanente, agregar en Variables de Entorno del Sistema
+   ```
+
+3. **Verificar Instalación**:
+   ```cmd
+   psql --version
+   pg_dump --version
+   ```
+
+### En Linux (Ubuntu/Debian)
+
+```bash
+# Actualizar repositorios
+sudo apt update
+
+# Instalar PostgreSQL
+sudo apt install postgresql postgresql-contrib
+
+# Verificar instalación
+psql --version
+```
+
+### En macOS
+
+```bash
+# Usando Homebrew
+brew install postgresql
+
+# Iniciar servicio
+brew services start postgresql
+```
+
 ## 1. Preparación del Entorno
 
 ### Verificar Instalación de PostgreSQL

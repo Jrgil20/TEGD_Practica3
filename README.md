@@ -30,9 +30,10 @@ TEGD_Practica3/
 
 ## 🚀 Inicio Rápido
 
-1. Revisa la [documentación detallada](docs/procedimiento.md) para el procedimiento completo
-2. Consulta la [referencia de comandos](docs/comandos.md) para opciones específicas
-3. Si encuentras problemas, revisa la [guía de solución de problemas](docs/troubleshooting.md)
+1. Revisa la [lista de verificación](docs/checklist.md) para seguir todos los pasos
+2. Lee la [documentación detallada](docs/procedimiento.md) para el procedimiento completo
+3. Consulta la [referencia de comandos](docs/comandos.md) para opciones específicas
+4. Si encuentras problemas, revisa la [guía de solución de problemas](docs/troubleshooting.md)
 
 ## 👥 Información del Proyecto
 
